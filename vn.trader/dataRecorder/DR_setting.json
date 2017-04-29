@@ -1,32 +1,26 @@
 {
-    "working": false,
+    "working": true,
 
     "tick":
     [
-        ["m1609", "XSPEED"],
-        ["IF1606", "SGIT"],
-        ["IH1606", "SGIT"],
-        ["IH1606", "SGIT"],
-        ["IC1606", "SGIT"],
-        ["IC1606", "SGIT"],
-        ["600036", "LTS", "SZSE"],
-        ["EUR.USD", "IB", "IDEALPRO", "USD", "外汇"]
+        ["m1709", "CTP"],
+        ["y1709", "CTP"],
+        ["p1709", "CTP"],
+        ["au1705", "CTP"]
     ],
 
     "bar":
     [
-        ["IF1605", "SGIT"],
-        ["IF1606", "SGIT"],
-        ["IH1606", "SGIT"],
-        ["IH1606", "SGIT"],
-        ["IC1606", "SGIT"],
-        ["IC1606", "SGIT"]
+        ["m1709", "CTP"],
+        ["y1709", "CTP"],
+        ["p1709", "CTP"],
+        ["au1705", "CTP"]
     ],
 
     "active":
     {
-    	"IF0000": "IF1605",
-        "IH0000": "IH1605",
-        "IC0000": "IC1605"
+    	"p0000": "p1709",
+        "y0000": "y1709",
+        "m0000": "m709"
     }
 }
